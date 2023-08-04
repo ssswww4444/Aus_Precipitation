@@ -1,0 +1,118 @@
+    CPC Global Unified Gauge-Based Analysis of Daily Precipitation
+
+    Please contact  CPC if you have any questions about this dataset as they generate it.
+    https://www.cpc.ncep.noaa.gov/
+    
+    Brief Description:
+    
+    * CPC .50x.50 Global Daily Unified Gauge-Based Analysis of
+    Precipitation,
+    
+    Temporal Coverage:
+    
+    * Daily 1979/01/01 to present
+    * Long Term Means of daily, monthly for years 1981 to 2010.
+    * Data are missing on the following dates (yyyymmdd):
+    20070226
+    
+    Spatial Coverage:
+    
+    * 0.50 - degree latitude x 0.50 - degree longitude grid (720x360).
+    * 89.75N-89.75SN, 0.25E-359.75E.
+    
+    [cpcglobalp.png]
+    
+    Levels:
+    
+    * N/A
+    
+    Update Schedule:
+    
+    * Updated daily
+    
+    Download/Plot Data:
+    
+    Variable         Statistic        Level    Download File   Create Plot/Subset
+    Precipitation     Daily Total      Surface  precip.yyyy.nc         plot
+    Precipitation Daily Long Term Mean Surface precip.day.ltm.nc       plot
+    
+    Usage Restrictions:
+    
+    * None
+    
+    Detailed Description:
+    
+    * This data set is part of products suite from the CPC Unified
+    Precipitation Project that are underway at NOAA Climate Prediction
+    Center (CPC). The primary goal of the project is to create a suite
+    of unified precipitation products with consistent quantity and
+    improved quality by combining all information sources available at
+    CPC and by taking advantage of the optimal interpolation (OI)
+    objective analysis technique. See their CPC's data docs for more
+    details.
+    Values are acculated for a day but that day can be at different
+    times for different locations. See the documentation.
+    
+    Caveats:
+    
+    * Real-time values change change before N days.
+    
+    Related File Naming & Structure Information:
+    
+    File Names:
+    * precip.yyyy.nc for daily  (In directory:
+    /Datasets/cpc_global_precip/)
+    * precip.time.statistic.nc for daily long term means  (In directory:
+    /Datasets/cpc_global_precip/)
+    
+    Dataset Format and Size:
+    * PSL standard NetCDF about 65 Mbyte netCDF4 file for each yearly
+    file.
+    
+    Missing Data:
+    * -9.96921e+36
+    
+    Citation:
+    
+    * Please note: If you acquire CPC Global Unified Precipitation data
+    products from PSL, we ask that you acknowledge us in your use of
+    the data. This may be done by including text such as CPC Global
+    Unified Precipitation data provided by the NOAA/OAR/ESRL PSL,
+    Boulder, Colorado, USA, from their Web site at
+    https://psl.noaa.gov/ in any documents or publications
+    using these data. We would also appreciate receiving a copy of the
+    relevant publications. This will help PSL to justify keeping the
+    CPC Global Unified Precipitation data set freely available online
+    in the future. Thank you!
+    
+    References:
+    
+    * (Interpolation algorithm) Xie_et_al_2007_JHM_EAG.pdf Xie, P., A.
+    Yatagai, M. Chen, T. Hayasaka, Y. Fukushima, C. Liu, and S. Yang
+    (2007), A gauge-based analysis of daily precipitation over East
+    Asia, J. Hydrometeorol., 8, 607. 626.
+    * (Gauge Algorithm Evaluation) Chen_et_al_2008_JGR_Gauge_Algo.pdf
+    Chen, M., W. Shi, P. Xie, V. B. S. Silva, V E. Kousky, R. Wayne
+    Higgins, and J. E. Janowiak (2008), Assessing objective techniques
+    for gauge-based analyses of global daily precipitation, J. Geophys.
+    Res., 113, D04110, doi:10.1029/2007JD009132.
+    * (Construction of the Daily Gauge Analysis)
+    Chen_et_al_2008_Daily_Gauge_Anal.pdf Chen, M., P. Xie, and
+    Co-authors (2008), CPC Unified Gauge-based Analysis of Global Daily
+    Precipiation, Western Pacific Geophysics Meeting, Cairns,
+    Australia, 29 July - 1 August, 2008.
+    
+    Original Source:
+    
+    * NCEP/Climate Prediction Center (Wayne Higgins, Evgeney Yarosh, Wei
+    Shi)
+    * From CPC's FTP directories.
+    * CPC's webpage with the latest images is available.
+    
+    Contact:
+    
+    * Physical Sciences Laboratory: Data Management
+    NOAA/ESRL/PSL
+    325 Broadway
+    Boulder, CO 80305-3328
+    psl.data@noaa.gov
